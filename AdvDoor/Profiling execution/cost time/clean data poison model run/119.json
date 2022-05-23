@@ -1,0 +1,621 @@
+[
+  {
+    "name": "flatten_dict_items()",
+    "child": [
+      {
+        "name": "iteritems()",
+        "child": [],
+        "time": 0
+      },
+      {
+        "name": "is_sequence()",
+        "child": [],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "_feed_fn()",
+    "child": [
+      {
+        "name": "<lambda>()",
+        "child": [],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "as_graph_element()",
+    "child": [
+      {
+        "name": "_as_graph_element_locked()",
+        "child": [
+          {
+            "name": "_as_graph_element()",
+            "child": [],
+            "time": 0
+          }
+        ],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "asarray()",
+    "child": [],
+    "time": 1000
+  },
+  {
+    "name": "get_shape()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "is_compatible_with()",
+    "child": [
+      {
+        "name": "as_shape()",
+        "child": [
+          {
+            "name": "<listcomp>()",
+            "child": [
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "time": 0
+              },
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "time": 0
+              },
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "time": 0
+              },
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "time": 0
+              }
+            ],
+            "time": 0
+          }
+        ],
+        "time": 0
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "time": 0
+          }
+        ],
+        "time": 0
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "time": 0
+          }
+        ],
+        "time": 0
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "time": 0
+          }
+        ],
+        "time": 0
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "time": 0
+          }
+        ],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "is_feedable()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "as_bytes()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "as_default()",
+    "child": [
+      {
+        "name": "get_controller()",
+        "child": [],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "context()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "push()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "get_controller()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "graph_mode()",
+    "child": [
+      {
+        "name": "context()",
+        "child": [],
+        "time": 0
+      },
+      {
+        "name": "_mode()",
+        "child": [],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "for_fetch()",
+    "child": [
+      {
+        "name": "<listcomp>()",
+        "child": [
+          {
+            "name": "for_fetch()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "time": 0
+              },
+              {
+                "name": "get_default_graph()",
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              },
+              {
+                "name": "as_graph_element()",
+                "child": [
+                  {
+                    "name": "_as_graph_element_locked()",
+                    "child": [
+                      {
+                        "name": "_as_graph_element()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              }
+            ],
+            "time": 0
+          },
+          {
+            "name": "for_fetch()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "time": 0
+              },
+              {
+                "name": "get_default_graph()",
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              },
+              {
+                "name": "as_graph_element()",
+                "child": [
+                  {
+                    "name": "_as_graph_element_locked()",
+                    "child": [
+                      {
+                        "name": "_as_graph_element()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              }
+            ],
+            "time": 0
+          }
+        ],
+        "time": 0
+      },
+      {
+        "name": "_uniquify_fetches()",
+        "child": [
+          {
+            "name": "unique_fetches()",
+            "child": [],
+            "time": 0
+          },
+          {
+            "name": "unique_fetches()",
+            "child": [],
+            "time": 0
+          }
+        ],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "context()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "pop()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "unique_fetches()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "_assert_fetchable()",
+    "child": [
+      {
+        "name": "is_fetchable()",
+        "child": [],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "_assert_fetchable()",
+    "child": [
+      {
+        "name": "is_fetchable()",
+        "child": [],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "<listcomp>()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "_update_with_movers()",
+    "child": [
+      {
+        "name": "_get_handle_feeder()",
+        "child": [],
+        "time": 0
+      }
+    ],
+    "time": 0
+  },
+  {
+    "name": "fetches()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "targets()",
+    "child": [],
+    "time": 0
+  },
+  {
+    "name": "_do_run()",
+    "child": [
+      {
+        "name": "<genexpr>()",
+        "child": [],
+        "time": 0
+      },
+      {
+        "name": "_as_tf_output()",
+        "child": [
+          {
+            "name": "tf_output()",
+            "child": [
+              {
+                "name": "_swig_getattr()",
+                "child": [],
+                "time": 0
+              },
+              {
+                "name": "_swig_setattr()",
+                "child": [
+                  {
+                    "name": "_swig_setattr_nondynamic()",
+                    "child": [],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              },
+              {
+                "name": "_swig_setattr()",
+                "child": [
+                  {
+                    "name": "_swig_setattr_nondynamic()",
+                    "child": [],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              },
+              {
+                "name": "_swig_setattr()",
+                "child": [
+                  {
+                    "name": "_swig_setattr_nondynamic()",
+                    "child": [],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              }
+            ],
+            "time": 0
+          }
+        ],
+        "time": 0
+      },
+      {
+        "name": "<listcomp>()",
+        "child": [
+          {
+            "name": "_as_tf_output()",
+            "child": [
+              {
+                "name": "tf_output()",
+                "child": [
+                  {
+                    "name": "_swig_getattr()",
+                    "child": [],
+                    "time": 0
+                  },
+                  {
+                    "name": "_swig_setattr()",
+                    "child": [
+                      {
+                        "name": "_swig_setattr_nondynamic()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  },
+                  {
+                    "name": "_swig_setattr()",
+                    "child": [
+                      {
+                        "name": "_swig_setattr_nondynamic()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  },
+                  {
+                    "name": "_swig_setattr()",
+                    "child": [
+                      {
+                        "name": "_swig_setattr_nondynamic()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              }
+            ],
+            "time": 0
+          }
+        ],
+        "time": 0
+      },
+      {
+        "name": "<listcomp>()",
+        "child": [],
+        "time": 0
+      },
+      {
+        "name": "_do_call()",
+        "child": [
+          {
+            "name": "_extend_graph()",
+            "child": [
+              {
+                "name": "_session_run_lock()",
+                "child": [
+                  {
+                    "name": "group()",
+                    "child": [
+                      {
+                        "name": "_validate_group_id()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              },
+              {
+                "name": "acquire()",
+                "child": [
+                  {
+                    "name": "_validate_group_id()",
+                    "child": [],
+                    "time": 0
+                  },
+                  {
+                    "name": "_another_group_active()",
+                    "child": [
+                      {
+                        "name": "<genexpr>()",
+                        "child": [],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              },
+              {
+                "name": "release()",
+                "child": [
+                  {
+                    "name": "_validate_group_id()",
+                    "child": [],
+                    "time": 0
+                  },
+                  {
+                    "name": "notify_all()",
+                    "child": [
+                      {
+                        "name": "notify()",
+                        "child": [
+                          {
+                            "name": "_is_owned()",
+                            "child": [],
+                            "time": 0
+                          }
+                        ],
+                        "time": 0
+                      }
+                    ],
+                    "time": 0
+                  }
+                ],
+                "time": 0
+              }
+            ],
+            "time": 0
+          },
+          {
+            "name": "_call_tf_sessionrun()",
+            "child": [],
+            "time": 462000
+          }
+        ],
+        "time": 462000
+      }
+    ],
+    "time": 462000
+  },
+  {
+    "name": "build_results()",
+    "child": [
+      {
+        "name": "build_results()",
+        "child": [
+          {
+            "name": "<listcomp>()",
+            "child": [],
+            "time": 0
+          },
+          {
+            "name": "build_results()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "time": 0
+              }
+            ],
+            "time": 0
+          },
+          {
+            "name": "<listcomp>()",
+            "child": [],
+            "time": 0
+          },
+          {
+            "name": "build_results()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "time": 0
+              }
+            ],
+            "time": 1000
+          }
+        ],
+        "time": 0
+      }
+    ],
+    "time": 0
+  }
+]

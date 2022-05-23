@@ -1,0 +1,621 @@
+[
+  {
+    "name": "flatten_dict_items()",
+    "child": [
+      {
+        "name": "iteritems()",
+        "child": [],
+        "return": "dict_itemiterator"
+      },
+      {
+        "name": "is_sequence()",
+        "child": [],
+        "return": "bool:False"
+      }
+    ],
+    "return": "dict"
+  },
+  {
+    "name": "_feed_fn()",
+    "child": [
+      {
+        "name": "<lambda>()",
+        "child": [],
+        "return": "lis"
+      }
+    ],
+    "return": "lis"
+  },
+  {
+    "name": "as_graph_element()",
+    "child": [
+      {
+        "name": "_as_graph_element_locked()",
+        "child": [
+          {
+            "name": "_as_graph_element()",
+            "child": [],
+            "return": "NoneType"
+          }
+        ],
+        "return": "Tensor"
+      }
+    ],
+    "return": "Tensor"
+  },
+  {
+    "name": "asarray()",
+    "child": [],
+    "return": "numpy.ndarray"
+  },
+  {
+    "name": "get_shape()",
+    "child": [],
+    "return": "TensorShape"
+  },
+  {
+    "name": "is_compatible_with()",
+    "child": [
+      {
+        "name": "as_shape()",
+        "child": [
+          {
+            "name": "<listcomp>()",
+            "child": [
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "return": "Dimension"
+              },
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "return": "Dimension"
+              },
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "return": "Dimension"
+              },
+              {
+                "name": "as_dimension()",
+                "child": [],
+                "return": "Dimension"
+              }
+            ],
+            "return": "lis"
+          }
+        ],
+        "return": "TensorShape"
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "return": "Dimension"
+          }
+        ],
+        "return": "bool:True"
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "return": "Dimension"
+          }
+        ],
+        "return": "bool:True"
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "return": "Dimension"
+          }
+        ],
+        "return": "bool:True"
+      },
+      {
+        "name": "is_compatible_with()",
+        "child": [
+          {
+            "name": "as_dimension()",
+            "child": [],
+            "return": "Dimension"
+          }
+        ],
+        "return": "bool:True"
+      }
+    ],
+    "return": "bool:True"
+  },
+  {
+    "name": "is_feedable()",
+    "child": [],
+    "return": "bool:True"
+  },
+  {
+    "name": "as_bytes()",
+    "child": [],
+    "return": "bytes"
+  },
+  {
+    "name": "as_default()",
+    "child": [
+      {
+        "name": "get_controller()",
+        "child": [],
+        "return": "_GeneratorContextManager"
+      }
+    ],
+    "return": "_GeneratorContextManager"
+  },
+  {
+    "name": "context()",
+    "child": [],
+    "return": "Context"
+  },
+  {
+    "name": "push()",
+    "child": [],
+    "return": "NoneType"
+  },
+  {
+    "name": "get_controller()",
+    "child": [],
+    "return": "_GeneratorContextManager"
+  },
+  {
+    "name": "graph_mode()",
+    "child": [
+      {
+        "name": "context()",
+        "child": [],
+        "return": "Context"
+      },
+      {
+        "name": "_mode()",
+        "child": [],
+        "return": "_GeneratorContextManager"
+      }
+    ],
+    "return": "_GeneratorContextManager"
+  },
+  {
+    "name": "for_fetch()",
+    "child": [
+      {
+        "name": "<listcomp>()",
+        "child": [
+          {
+            "name": "for_fetch()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "return": "tuple"
+              },
+              {
+                "name": "get_default_graph()",
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "child": [],
+                        "return": "Graph"
+                      }
+                    ],
+                    "return": "Graph"
+                  }
+                ],
+                "return": "Graph"
+              },
+              {
+                "name": "as_graph_element()",
+                "child": [
+                  {
+                    "name": "_as_graph_element_locked()",
+                    "child": [
+                      {
+                        "name": "_as_graph_element()",
+                        "child": [],
+                        "return": "NoneType"
+                      }
+                    ],
+                    "return": "Tensor"
+                  }
+                ],
+                "return": "Tensor"
+              }
+            ],
+            "return": "_ElementFetchMapper"
+          },
+          {
+            "name": "for_fetch()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "return": "tuple"
+              },
+              {
+                "name": "get_default_graph()",
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "child": [],
+                        "return": "Graph"
+                      }
+                    ],
+                    "return": "Graph"
+                  }
+                ],
+                "return": "Graph"
+              },
+              {
+                "name": "as_graph_element()",
+                "child": [
+                  {
+                    "name": "_as_graph_element_locked()",
+                    "child": [
+                      {
+                        "name": "_as_graph_element()",
+                        "child": [],
+                        "return": "NoneType"
+                      }
+                    ],
+                    "return": "Operation"
+                  }
+                ],
+                "return": "Operation"
+              }
+            ],
+            "return": "_ElementFetchMapper"
+          }
+        ],
+        "return": "lis"
+      },
+      {
+        "name": "_uniquify_fetches()",
+        "child": [
+          {
+            "name": "unique_fetches()",
+            "child": [],
+            "return": "lis"
+          },
+          {
+            "name": "unique_fetches()",
+            "child": [],
+            "return": "lis"
+          }
+        ],
+        "return": "tuple"
+      }
+    ],
+    "return": "_ElementFetchMapper"
+  },
+  {
+    "name": "context()",
+    "child": [],
+    "return": "Context"
+  },
+  {
+    "name": "pop()",
+    "child": [],
+    "return": "NoneType"
+  },
+  {
+    "name": "unique_fetches()",
+    "child": [],
+    "return": "lis"
+  },
+  {
+    "name": "_assert_fetchable()",
+    "child": [
+      {
+        "name": "is_fetchable()",
+        "child": [],
+        "return": "bool:True"
+      }
+    ],
+    "return": "NoneType"
+  },
+  {
+    "name": "_assert_fetchable()",
+    "child": [
+      {
+        "name": "is_fetchable()",
+        "child": [],
+        "return": "bool:True"
+      }
+    ],
+    "return": "NoneType"
+  },
+  {
+    "name": "<listcomp>()",
+    "child": [],
+    "return": "lis"
+  },
+  {
+    "name": "_update_with_movers()",
+    "child": [
+      {
+        "name": "_get_handle_feeder()",
+        "child": [],
+        "return": "NoneType"
+      }
+    ],
+    "return": "list)\r"
+  },
+  {
+    "name": "fetches()",
+    "child": [],
+    "return": "lis"
+  },
+  {
+    "name": "targets()",
+    "child": [],
+    "return": "lis"
+  },
+  {
+    "name": "_do_run()",
+    "child": [
+      {
+        "name": "<genexpr>()",
+        "child": [],
+        "return": "generator"
+      },
+      {
+        "name": "_as_tf_output()",
+        "child": [
+          {
+            "name": "tf_output()",
+            "child": [
+              {
+                "name": "_swig_getattr()",
+                "child": [],
+                "return": "NULL"
+              },
+              {
+                "name": "_swig_setattr()",
+                "child": [
+                  {
+                    "name": "_swig_setattr_nondynamic()",
+                    "child": [],
+                    "return": "NoneType"
+                  }
+                ],
+                "return": "NoneType"
+              },
+              {
+                "name": "_swig_setattr()",
+                "child": [
+                  {
+                    "name": "_swig_setattr_nondynamic()",
+                    "child": [],
+                    "return": "NoneType"
+                  }
+                ],
+                "return": "NoneType"
+              },
+              {
+                "name": "_swig_setattr()",
+                "child": [
+                  {
+                    "name": "_swig_setattr_nondynamic()",
+                    "child": [],
+                    "return": "NoneType"
+                  }
+                ],
+                "return": "NoneType"
+              }
+            ],
+            "return": "TF_Output"
+          }
+        ],
+        "return": "TF_Output"
+      },
+      {
+        "name": "<listcomp>()",
+        "child": [
+          {
+            "name": "_as_tf_output()",
+            "child": [
+              {
+                "name": "tf_output()",
+                "child": [
+                  {
+                    "name": "_swig_getattr()",
+                    "child": [],
+                    "return": "NULL"
+                  },
+                  {
+                    "name": "_swig_setattr()",
+                    "child": [
+                      {
+                        "name": "_swig_setattr_nondynamic()",
+                        "child": [],
+                        "return": "NoneType"
+                      }
+                    ],
+                    "return": "NoneType"
+                  },
+                  {
+                    "name": "_swig_setattr()",
+                    "child": [
+                      {
+                        "name": "_swig_setattr_nondynamic()",
+                        "child": [],
+                        "return": "NoneType"
+                      }
+                    ],
+                    "return": "NoneType"
+                  },
+                  {
+                    "name": "_swig_setattr()",
+                    "child": [
+                      {
+                        "name": "_swig_setattr_nondynamic()",
+                        "child": [],
+                        "return": "NoneType"
+                      }
+                    ],
+                    "return": "NoneType"
+                  }
+                ],
+                "return": "TF_Output"
+              }
+            ],
+            "return": "TF_Output"
+          }
+        ],
+        "return": "lis"
+      },
+      {
+        "name": "<listcomp>()",
+        "child": [],
+        "return": "lis"
+      },
+      {
+        "name": "_do_call()",
+        "child": [
+          {
+            "name": "_extend_graph()",
+            "child": [
+              {
+                "name": "_session_run_lock()",
+                "child": [
+                  {
+                    "name": "group()",
+                    "child": [
+                      {
+                        "name": "_validate_group_id()",
+                        "child": [],
+                        "return": "NoneType"
+                      }
+                    ],
+                    "return": "_Context"
+                  }
+                ],
+                "return": "_Context"
+              },
+              {
+                "name": "acquire()",
+                "child": [
+                  {
+                    "name": "_validate_group_id()",
+                    "child": [],
+                    "return": "NoneType"
+                  },
+                  {
+                    "name": "_another_group_active()",
+                    "child": [
+                      {
+                        "name": "<genexpr>()",
+                        "child": [],
+                        "return": "generator"
+                      }
+                    ],
+                    "return": "bool:False"
+                  }
+                ],
+                "return": "NoneType"
+              },
+              {
+                "name": "release()",
+                "child": [
+                  {
+                    "name": "_validate_group_id()",
+                    "child": [],
+                    "return": "NoneType"
+                  },
+                  {
+                    "name": "notify_all()",
+                    "child": [
+                      {
+                        "name": "notify()",
+                        "child": [
+                          {
+                            "name": "_is_owned()",
+                            "child": [],
+                            "return": "bool:True"
+                          }
+                        ],
+                        "return": "NoneType"
+                      }
+                    ],
+                    "return": "NoneType"
+                  }
+                ],
+                "return": "NoneType"
+              }
+            ],
+            "return": "NoneType"
+          },
+          {
+            "name": "_call_tf_sessionrun()",
+            "child": [],
+            "return": "lis"
+          }
+        ],
+        "return": "lis"
+      }
+    ],
+    "return": "lis"
+  },
+  {
+    "name": "build_results()",
+    "child": [
+      {
+        "name": "build_results()",
+        "child": [
+          {
+            "name": "<listcomp>()",
+            "child": [],
+            "return": "lis"
+          },
+          {
+            "name": "build_results()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "return": "numpy.ndarray"
+              }
+            ],
+            "return": "numpy.ndarray"
+          },
+          {
+            "name": "<listcomp>()",
+            "child": [],
+            "return": "lis"
+          },
+          {
+            "name": "build_results()",
+            "child": [
+              {
+                "name": "<lambda>()",
+                "child": [],
+                "return": "NoneType"
+              }
+            ],
+            "return": "NoneType"
+          }
+        ],
+        "return": "numpy.ndarray"
+      }
+    ],
+    "return": "numpy.ndarray"
+  }
+]

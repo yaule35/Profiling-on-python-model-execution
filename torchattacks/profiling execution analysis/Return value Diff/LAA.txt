@@ -1,0 +1,2 @@
+output diff count:1
+i16be(),int):100
