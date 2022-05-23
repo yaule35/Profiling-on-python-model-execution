@@ -35,38 +35,6 @@ If there is a trigger already, run the following command to train a poisoned mod
 
  During injection, we will finetune the backdoor model on a benign model, so we need to train a benign model first. If we already have a benign model, we could set the `model_path_finetune` item in `json/cifar.json` as its path.
 
-
-### Evaluation
-We will first generate the perturbation.
-The fooling rate is shown below.
-<div align=center><img src="imgs/generation.png" alt="generation" style="zoom:67%;" /></div>
-
-The example of the generated trigger.
-
-<div align=center><img src="imgs/example.png" alt="generation" style="zoom:150%;" /></div>
-
-In the following image, we can get the attack success rate, which is the 'Poisonous test set accuracy' in image. 
-Meanwhile, we will try to detect the AdvDoor with Activation Clustering method [<sup>1</sup>](#activation_clustering). We can find that the f1-score is very low, which means that Activation Clustering can hardly find the poisoned data.
-
-<div align=center><img src="imgs/injection.png" alt="injection" style="zoom:100%;" /></div>
-
-
-
-### Section5.4.2 Crossing Model Attacks
-
-#### ResNet to VGGNet, TUAP-Deepfool
-![image](https://github.com/AdvDoor/AdvDoor/blob/master/imgs/Res2VGG_Deepfool.png)
-
-#### ResNet to VGGNet, TUAP-C\&W
-![image](https://github.com/AdvDoor/AdvDoor/blob/master/imgs/Res2VGG_CW.png)
-
-#### VGGNet to ResNet, TUAP-Deepfool
-![image](https://github.com/AdvDoor/AdvDoor/blob/master/imgs/VGG2Res_Deepfool.png)
-
-#### VGGNet to ResNet, TUAP-C\&W
-![image](https://github.com/AdvDoor/AdvDoor/blob/master/imgs/VGG2Res_CW.png)
-
-
 ### Reference
 
 <div id="activation_clustering"></div>
